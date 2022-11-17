@@ -29,7 +29,7 @@ const Header = ({ data }) => {
       <div className="flex">
         <div className="relative mr-4 w-11">
           <Link href="/">
-            <Image data={data.avatar.responsiveImage} />
+            <Image data={data.avatar.responsiveImage} alt="" />
           </Link>
         </div>
         <div className="text-xs">

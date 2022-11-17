@@ -20,7 +20,11 @@ const Post = ({ post, isInner }) => {
           data={post.body}
           renderBlock={({ record }) => {
             return (
-              <Image className="mb-4" data={record.image.responsiveImage} />
+              <Image
+                className="mb-4"
+                data={record.image.responsiveImage}
+                alt=""
+              />
             );
           }}
         />

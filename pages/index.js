@@ -54,6 +54,7 @@ export default function Home({ data }) {
                 (image) => image.responsiveImage.title === "Avatar"
               )[0].responsiveImage
             }
+            alt=""
           />
         </div>
       </div>
