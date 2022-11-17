@@ -34,7 +34,7 @@ const Post = ({ post, isInner }) => {
         <div className="mr-2">#</div>
         {post.categories.map((category) => {
           return (
-            <Link href={`/blog/category/${category.slug}`}>
+            <Link href={`/blog/category/${category.slug}`} key={category.id}>
               <div className="mr-2 rounded bg-orange-200 px-2 hover:bg-orange-400">
                 {category.category}
               </div>
